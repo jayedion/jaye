@@ -1,0 +1,85 @@
+ 
+       @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+       .mission-text {
+           font-family: 'Orbitron', sans-serif; /* Futuristic font */
+           font-size: 32px; /* Adjust size as needed */
+           font-weight: bold;
+           text-transform: uppercase;
+           text-align: center;
+       
+           /* Gradient Text */
+           background: linear-gradient(to right, #66D9EF, #00FFFF); 
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           
+           /* Optional Glow Effect */
+           text-shadow: 0 0 10px rgba(102, 217, 239, 0.8);
+       }
+       
+       body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;          
+            background: linear-gradient(to bottom, rgb(0, 170, 232), rgb(0, 55, 75), rgb(230, 230, 230));
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+        }
+        .container {
+            background: rgb(0, 0, 0);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .input-box {
+            position: relative;
+            margin: 15px 0;
+            width: 100%;
+        }
+        .input-box input {
+            width: calc(100% - 40px);
+            padding: 10px;
+            padding-left: 35px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-box i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #555;
+        }
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .register-link {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+
+        h2{
+            color: rgb(255, 255, 255);
+        }
+   
